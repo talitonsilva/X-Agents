@@ -4,7 +4,7 @@ set -euo pipefail
 BASE_DIR="/www/server/xagents"
 TMP_DIR="$(mktemp -d /tmp/xagents-public-install.XXXXXX)"
 VERSION="2026.03.23-r1"
-RELEASE_BASE_URL="https://raw.githubusercontent.com/talitonsilva/X-Agents/main"
+RELEASE_BASE_URL="http://157.173.121.5:8889/static/xagents/releases/2026.03.23-r1"
 ARCHIVE_URL="https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.03.23-r1.tar.gz"
 cleanup() {
   rm -rf "$TMP_DIR"
