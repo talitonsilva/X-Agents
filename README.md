@@ -1,7 +1,5 @@
 # X-Agents
 
-Build publica obfuscada do X-Agents.
-
 Arquivos incluidos:
 
 - `install.sh`
