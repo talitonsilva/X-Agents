@@ -1,0 +1,28 @@
+{
+  "name": "xagents-panel",
+  "version": "1.0.0",
+  "description": "X-Agents backend and web UI",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.7.0",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.3",
+    "sqlite3": "^6.0.1",
+    "ws": "^8.18.0"
+  }
+}
