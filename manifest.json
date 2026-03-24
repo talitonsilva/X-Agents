@@ -1,11 +1,11 @@
 {
   "name": "xagents",
-  "version": "2026.03.24-r4",
-  "archive": "xagents-2026.03.24-r4.tar.gz",
+  "version": "2026.03.24-r5",
+  "archive": "xagents-2026.03.24-r5.tar.gz",
   "releaseBaseUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main",
   "manifestUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/manifest.json",
-  "archiveUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.03.24-r4.tar.gz",
+  "archiveUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.03.24-r5.tar.gz",
   "obfuscateFrontend": true,
   "obfuscateBackend": true,
-  "builtAt": "2026-03-24T10:04:24+01:00"
+  "builtAt": "2026-03-24T10:14:32.715700+01:00"
 }
