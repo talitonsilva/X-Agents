@@ -13,6 +13,10 @@ if [[ "$EUID" -ne 0 ]]; then
   echo "[ERRO] Execute como root"
   exit 1
 fi
+echo "========================================"
+echo "X-AGENTS by MasterDev Taliton Silva"
+echo "Auto Installer"
+echo "========================================"
 echo "[1/4] Baixando release $VERSION ..."
 curl -fsSL "$ARCHIVE_URL" -o "$TMP_DIR/xagents.tar.gz"
 echo "[2/4] Extraindo pacote ..."
@@ -21,4 +25,7 @@ tar -xzf "$TMP_DIR/xagents.tar.gz" -C "$TMP_DIR/src"
 echo "[3/4] Executando instalador do pacote ..."
 cd "$TMP_DIR/src"
 bash scripts/install.sh
+echo "========================================"
+echo "X-AGENTS by MasterDev Taliton Silva"
 echo "[4/4] Instalacao concluida em $BASE_DIR"
+echo "========================================"
