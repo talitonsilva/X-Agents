@@ -14,7 +14,7 @@ curl -fsSL https://raw.githubusercontent.com/talitonsilva/X-Agents/main/install.
 
 - `install.sh`
 - `manifest.json`
-- `xagents-2026.03.25-r18.tar.gz`
+- `xagents-2026.03.25-r19.tar.gz`
 
 ## Funcionalidades
 
