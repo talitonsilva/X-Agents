@@ -1,66 +1,36 @@
-# X-AGENTS by MasterDev Taliton Silva
+# X-Agents
 
-Painel para operar agentes com Codex, contas de IA, chats, tarefas, integrações externas e automações em um único workspace web.
+Painel standalone focado em gerenciamento de agentes de IA.
 
 ## Instalacao
 
-Via GitHub:
-
 ```bash
-curl -fsSL https://raw.githubusercontent.com/talitonsilva/X-Agents/main/install.sh | bash
+cd /root/xagents
+bash scripts/install.sh
 ```
 
-## O que esta incluso
+Padrao:
 
-- `install.sh`
-- `manifest.json`
-- `xagents-2026.03.25-r20.tar.gz`
+- base: `/www/server/xagents`
+- porta: `8890`
+- servico: `xagents.service`
 
-## Funcionalidades
-
-- Workspace web para operar agentes em tempo real
-- Criação e gerenciamento de agentes
-- Contas Codex com autenticação e rate limits
-- Chats persistentes por tarefa e sessão
-- Composer com texto, imagem, audio e arquivo
-- Tasks com fila, re-run, cancelamento e histórico
-- Skills para ampliar capacidades dos agentes
-- Perfis SSH para execução remota
-- Integrações custom API
-- Integrações WhatsApp, Telegram e Discord
-- Integração Meta Ads
-- Auto update por timer do systemd
-- Update manual pelo cabeçalho do painel
-- Modal de update com progresso e log
-- Instalador automático com Node 22+ e Codex CLI
-- Compatibilidade com atualização via GitHub raw
-
-## Requisitos
-
-- Ubuntu ou Debian com acesso root
-- Internet liberada para baixar dependências
-- Porta `8890/tcp` disponível
-
-## Pos-instalacao
-
-Validar serviço:
+## Update
 
 ```bash
-systemctl status xagents.service --no-pager -l
+cd /root/xagents
+bash scripts/update.sh
 ```
 
-Validar healthcheck:
+## Release
 
 ```bash
-curl -fsS http://127.0.0.1:8890/healthz
+cd /root/xagents
+bash scripts/build-release.sh
 ```
 
-## Update manual
+## Fluxo Para Agentes
 
-Reexecutar o instalador:
+Instrucoes obrigatorias para agentes que alterarem o projeto:
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/talitonsilva/X-Agents/main/install.sh | bash
-```
-
-Ou usar o botão de update no cabeçalho do painel quando houver nova versão disponível.
+- [AGENT_RELEASE_INSTRUCTIONS.md](/root/xagents/AGENT_RELEASE_INSTRUCTIONS.md)
