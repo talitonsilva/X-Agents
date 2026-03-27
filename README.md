@@ -1,36 +1,23 @@
 # X-Agents
 
-Painel standalone focado em gerenciamento de agentes de IA.
+Artefatos publicos de distribuicao do X-Agents.
+
+## Conteudo
+
+- `xagents-<VERSAO>.tar.gz`
+- `manifest.json`
+- `install.sh`
 
 ## Instalacao
 
-```bash
-cd /root/xagents
-bash scripts/install.sh
-```
-
-Padrao:
-
-- base: `/www/server/xagents`
-- porta: `8890`
-- servico: `xagents.service`
-
-## Update
+Baixe e execute o instalador da versao publicada:
 
 ```bash
-cd /root/xagents
-bash scripts/update.sh
+curl -fsSL https://github.com/talitonsilva/X-Agents/releases/latest/download/install.sh -o /tmp/xagents-install.sh
+chmod +x /tmp/xagents-install.sh
+bash /tmp/xagents-install.sh
 ```
 
-## Release
+## Atualizacao
 
-```bash
-cd /root/xagents
-bash scripts/build-release.sh
-```
-
-## Fluxo Para Agentes
-
-Instrucoes obrigatorias para agentes que alterarem o projeto:
-
-- [AGENT_RELEASE_INSTRUCTIONS.md](/root/xagents/AGENT_RELEASE_INSTRUCTIONS.md)
+As instalacoes publicadas usam o `manifest.json` deste repositorio para localizar a ultima release.
