@@ -1,7 +1,7 @@
 {
   "name": "xagents",
-  "version": "2026.03.30-r25",
-  "archive": "xagents-2026.03.30-r25.tar.gz",
-  "manifestUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.03.30-r25/manifest.json",
-  "archiveUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.03.30-r25/xagents-2026.03.30-r25.tar.gz"
+  "version": "2026.03.31-r26",
+  "archive": "xagents-2026.03.31-r26.tar.gz",
+  "manifestUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.03.31-r26/manifest.json",
+  "archiveUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.03.31-r26/xagents-2026.03.31-r26.tar.gz"
 }
