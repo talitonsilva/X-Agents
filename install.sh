@@ -3,9 +3,9 @@ set -euo pipefail
 
 BASE_DIR="/www/server/xagents"
 TMP_DIR="$(mktemp -d /tmp/xagents-public-install.XXXXXX)"
-VERSION="2026.03.31-r28"
-RELEASE_BASE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.03.31-r28"
-ARCHIVE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.03.31-r28/xagents-2026.03.31-r28.tar.gz"
+VERSION="2026.03.31-r29"
+RELEASE_BASE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.03.31-r29"
+ARCHIVE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.03.31-r29/xagents-2026.03.31-r29.tar.gz"
 
 if [[ -t 1 ]]; then
   C_RESET="$(printf '\033[0m')"
