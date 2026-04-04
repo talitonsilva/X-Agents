@@ -1,7 +1,7 @@
 {
   "name": "xagents",
-  "version": "2026.03.31-r33",
-  "archive": "xagents-2026.03.31-r33.tar.gz",
+  "version": "2026.04.05-r34",
+  "archive": "xagents-2026.04.05-r34.tar.gz",
   "manifestUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/manifest.json",
-  "archiveUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.03.31-r33.tar.gz"
+  "archiveUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.04.05-r34.tar.gz"
 }
