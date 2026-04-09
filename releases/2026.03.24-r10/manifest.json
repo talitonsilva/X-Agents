@@ -1,0 +1,11 @@
+{
+  "name": "xagents",
+  "version": "2026.03.24-r10",
+  "archive": "xagents-2026.03.24-r10.tar.gz",
+  "releaseBaseUrl": "http://157.173.121.5:8889/static/xagents/releases/2026.03.24-r10",
+  "manifestUrl": "http://157.173.121.5:8889/static/xagents/releases/2026.03.24-r10/manifest.json",
+  "archiveUrl": "http://157.173.121.5:8889/static/xagents/releases/2026.03.24-r10/xagents-2026.03.24-r10.tar.gz",
+  "obfuscateFrontend": true,
+  "obfuscateBackend": true,
+  "builtAt": "2026-03-24T18:56:04+01:00"
+}
