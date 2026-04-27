@@ -3,9 +3,10 @@ set -euo pipefail
 
 BASE_DIR="/www/server/xagents"
 TMP_DIR="$(mktemp -d /tmp/xagents-public-install.XXXXXX)"
-VERSION="2026.04.27-r38"
-RELEASE_BASE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.04.27-r38"
-ARCHIVE_URL="https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.04.27-r38.tar.gz"
+VERSION="2026.04.27-r39"
+RELEASE_BASE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.04.27-r39"
+ARCHIVE_URL="https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.04.27-r39.tar.gz"
+ARCHIVE_SHA256="213af61e6b56508d7e98d32e74cfafa9418b5d1fbdfe9a34288332a20420f5e1"
 
 if [[ -t 1 ]]; then
   C_RESET="$(printf '\033[0m')"
@@ -59,6 +60,13 @@ print_banner
 print_progress 5 "Preparando auto instalador"
 echo "[1/4] Baixando release $VERSION ..."
 curl -fsSL "$ARCHIVE_URL" -o "$TMP_DIR/xagents.tar.gz"
+if [[ -n "$ARCHIVE_SHA256" ]]; then
+  DOWNLOADED_SHA256="$(sha256sum "$TMP_DIR/xagents.tar.gz" | awk '{print $1}')"
+  if [[ "$DOWNLOADED_SHA256" != "$ARCHIVE_SHA256" ]]; then
+    echo "[ERRO] Checksum da release nao confere"
+    exit 1
+  fi
+fi
 
 print_progress 35 "Release baixada"
 echo "[2/4] Extraindo pacote ..."

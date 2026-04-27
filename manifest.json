@@ -1,7 +1,9 @@
 {
   "name": "xagents",
-  "version": "2026.04.27-r38",
-  "archive": "xagents-2026.04.27-r38.tar.gz",
+  "version": "2026.04.27-r39",
+  "archive": "xagents-2026.04.27-r39.tar.gz",
   "manifestUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/manifest.json",
-  "archiveUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.04.27-r38.tar.gz"
+  "archiveUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/xagents-2026.04.27-r39.tar.gz",
+  "integrityUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/integrity.json",
+  "archiveSha256": "213af61e6b56508d7e98d32e74cfafa9418b5d1fbdfe9a34288332a20420f5e1"
 }
