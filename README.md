@@ -26,4 +26,8 @@ Padrao:
 
 O runtime instalado consulta o `manifest.json` deste repositorio para baixar novas versoes publicas.
 
+## Importante
 
+- este repositorio nao contem a source editavel
+- a source privada nao deve ser publicada aqui
+- o runtime deve consumir somente a release publica ofuscada

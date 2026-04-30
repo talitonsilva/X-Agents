@@ -6,7 +6,7 @@ TMP_DIR="$(mktemp -d /tmp/xagents-public-install.XXXXXX)"
 VERSION="2026.04.29-r77"
 RELEASE_BASE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.04.29-r77"
 ARCHIVE_URL="https://github.com/talitonsilva/X-Agents/releases/download/2026.04.29-r77/xagents-2026.04.29-r77.tar.gz"
-ARCHIVE_SHA256="6119c317b3aabfa83e680e91167e3bb6abb4d303aa86088f68fe1699ad280b42"
+ARCHIVE_SHA256="6ce0a87d422b3029bb5fb08493029e33d6e4835ddbfe013f645c11fef091c7f5"
 
 if [[ -t 1 ]]; then
   C_RESET="$(printf '\033[0m')"
