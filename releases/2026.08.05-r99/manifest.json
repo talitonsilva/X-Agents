@@ -1,0 +1,9 @@
+{
+  "name": "xagents",
+  "version": "2026.08.05-r99",
+  "archive": "xagents-2026.08.05-r99.tar.gz",
+  "manifestUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/manifest.json",
+  "archiveUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.08.05-r99/xagents-2026.08.05-r99.tar.gz",
+  "integrityUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.08.05-r99/integrity.json",
+  "archiveSha256": "eb023de3ff5f406770b39d278294fb9bac6e8e74fe7dcf0264c0ff65af263171"
+}
