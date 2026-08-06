@@ -5,5 +5,5 @@
   "manifestUrl": "https://raw.githubusercontent.com/talitonsilva/X-Agents/main/manifest.json",
   "archiveUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.08.06-r105/xagents-2026.08.06-r105.tar.gz",
   "integrityUrl": "https://github.com/talitonsilva/X-Agents/releases/download/2026.08.06-r105/integrity.json",
-  "archiveSha256": "e7381ccd41819dec2b5aaa855f929b3871c447e4ea850270e17ef07e3bd5393d"
+  "archiveSha256": "27d82681f41eefcb6844e9a29d6a62b3e34df10b6a51b401775f8885c2e49f1d"
 }
